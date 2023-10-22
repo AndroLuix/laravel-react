@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+
+
+  "scripts": {
+    "start": "concurrently \"cd laravel && php artisan serve\" \"cd react && npm start\"",
+    "stop": "taskkill /f /im node.exe & taskkill /f /im php.exe"
+  }
+}
