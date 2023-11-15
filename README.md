@@ -1,8 +1,7 @@
 # Laravel & React CRUD
 
 Breve descrizione del progetto:
-Il progetto CRUD  
-Difatti, ha solo lo scopo di illustrare l'utilizzo di due framework noti 
+Il progetto CRUD ha solo lo scopo di illustrare l'utilizzo di due framework noti 
 come Laravel e React.js 
 
 
