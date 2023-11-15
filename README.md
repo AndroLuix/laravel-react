@@ -1,11 +1,7 @@
 # Laravel & React CRUD
 
 Breve descrizione del progetto:
-Il progetto CRUD 
-Create (creare i dati)
-Read o Retrieve (leggere i dati)
-Update (aggiornare i dati)
-Delete o Destroy (eliminare i dati)) 
+Il progetto CRUD  
 Difatti, ha solo lo scopo di illustrare l'utilizzo di due framework noti 
 come Laravel e React.js 
 
