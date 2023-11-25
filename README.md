@@ -20,8 +20,9 @@ come Laravel e React
 Per installare il progetto, seguire i passaggi seguenti:
 
 1. Clonare il repository da GitHub.
-2. Creare un database nominato react 
-3. eseguire su terminale il comando `cd laravel` e `composer install` infine torna inditro con `cd ..`
+2. Creare un database nominato 'react'
+3. eseguire l'installazione delle indipendente di node con `install:dependencies`
+eseguire su terminale il comando `cd laravel` e `composer install` infine torna inditro con `cd ..`
 4. eseguire su terminale il comando `npm run migrate`
 5. se si vuole aggiornare il database `npm run migrate:fresh`
 6. Eseguire il comando `npm start` per avviare il software sul proprio server

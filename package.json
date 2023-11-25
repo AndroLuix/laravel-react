@@ -3,9 +3,9 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "start": "concurrently \"cd laravel && php artisan serve\" \"cd .. \"  \" cd react && npm start\"",
+    "start": "concurrently \"cd laravel && php artisan serve\" \"cd ..\" \"cd react && npm start\"",
     "stop": "taskkill /f /im node.exe & taskkill /f /im php.exe",
-    "npm:install": "cd react && npm install",
+"install:dependencies": "cd react && npm install && cd .. && cd laravel && composer install && cd ..",
     "migrate": "cd laravel && php artisan migrate",
     "migrate:fresh": "cd laravel && php artisan migrate:fresh"
   }
