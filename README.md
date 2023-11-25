@@ -21,11 +21,12 @@ Per installare il progetto, seguire i passaggi seguenti:
 
 1. Clonare il repository da GitHub.
 2. Creare un database nominato react 
-3. eseguire su terminale il comando `npm run migrate`
-4. se si vuole aggiornare il database `npm run migrate:fresh`
-4. Eseguire il comando `npm start` per avviare il software sul proprio server
-4. Ferma con il comando `npm stop` oppure CTRL + C.
-5. Per fermare i server premere contemporanemente i tasti CTRL+C e infine nel terminale `npm stop run`.
+3. eseguire su terminale il comando `cd laravel` e `composer install`
+4. eseguire su terminale il comando `npm run migrate`
+5. se si vuole aggiornare il database `npm run migrate:fresh`
+6. Eseguire il comando `npm start` per avviare il software sul proprio server
+7. Ferma con il comando `npm stop` oppure CTRL + C.
+8. Per fermare i server premere contemporanemente i tasti CTRL+C e infine nel terminale `npm stop run`.
 
 
 
