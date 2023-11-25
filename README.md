@@ -21,7 +21,7 @@ Per installare il progetto, seguire i passaggi seguenti:
 
 1. Clonare il repository da GitHub.
 2. Creare un database nominato react 
-3. eseguire su terminale il comando `cd laravel` e `composer install`
+3. eseguire su terminale il comando `cd laravel` e `composer install` infine torna inditro con `cd ..`
 4. eseguire su terminale il comando `npm run migrate`
 5. se si vuole aggiornare il database `npm run migrate:fresh`
 6. Eseguire il comando `npm start` per avviare il software sul proprio server
