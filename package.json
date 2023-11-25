@@ -6,6 +6,8 @@
 
   "scripts": {
     "start": "concurrently \"cd laravel && php artisan serve\" \"cd react && npm start\"",
-    "stop": "taskkill /f /im node.exe & taskkill /f /im php.exe"
+    "stop": "taskkill /f /im node.exe & taskkill /f /im php.exe",
+    "migrate": "cd laravel && php artisan migrate",
+    "migrate:fresh": "cd laravel && php artisan migrate:fresh"
   }
 }
