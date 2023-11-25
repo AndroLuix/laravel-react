@@ -21,13 +21,12 @@ Per installare il progetto, seguire i passaggi seguenti:
 
 1. Clonare il repository da GitHub.
 2. Creare un database nominato 'react'
-3. eseguire l'installazione delle dipendente di node con `install:dependencies` per installare composer per Laravel e installare le dipendenze node
+3. eseguire l'installazione delle dipendente di node con `npm run install:dependencies` per installare composer per Laravel e installare le dipendenze node
 
 4. eseguire su terminale il comando `npm run migrate`
 5. se si vuole aggiornare il database `npm run migrate:fresh`
 6. Eseguire il comando `npm start` per avviare il software sul proprio server
-7. Ferma con il comando `npm stop` oppure CTRL + C.
-8. Per fermare i server premere contemporanemente i tasti CTRL+C e infine nel terminale `npm stop run`.
+7. Per arrestare il software premere contemporanemente i tasti CTRL+C e infine nel terminale `npm stop run`.
 
 
 ## Contribuire
@@ -62,8 +61,7 @@ To install the project, follow these steps:
 4. Run the command `npm run migrate` in the terminal.
 5. If you want to update the database, run `npm run migrate:fresh`.
 6. Run the command `npm start` to start the software on your server.
-7. Stop with the command `npm stop` or CTRL + C.
-8. To stop the servers, press CTRL+C simultaneously, and finally in the terminal `npm stop run`.
+7. To stop the software, press CTRL+C simultaneously, and finally in the terminal `npm stop run`.
 
 ## Contributing
 
