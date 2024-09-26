@@ -8,9 +8,11 @@ come Laravel e React
 
 
 
+
 ## Requisiti
 
 - Server web: Configurare XAMPP o altri software per server web multipiattaforma per l'utilizzo di Apache e MySQL
+- PHP 7
 - Composer: Assicurati di avere Composer installato nel tuo sistem. Puoi verificare se è già installato eseguendo composer -v nel terminale.
 - Node.js e npm: È necessario installare Node.js e npm per gestire le dipendenze e gli script di build per il progetto React. Verifica se sono installati eseguendo node -v e npm -v nel terminale.
 
